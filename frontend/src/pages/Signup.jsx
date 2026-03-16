@@ -61,12 +61,12 @@ export default function Signup() {
 }
 
 const styles = {
-  container: { minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#0f0f0f' },
-  card: { background: '#1a1a1a', padding: '2rem', borderRadius: '12px', width: '100%', maxWidth: '400px', border: '1px solid #333' },
-  title: { color: '#ffffff', textAlign: 'center', fontSize: '2rem', margin: '0 0 0.5rem' },
-  subtitle: { color: '#888', textAlign: 'center', margin: '0 0 1.5rem' },
-  input: { width: '100%', padding: '0.75rem', marginBottom: '1rem', borderRadius: '8px', border: '1px solid #333', background: '#0f0f0f', color: '#fff', fontSize: '1rem', boxSizing: 'border-box' },
-  button: { width: '100%', padding: '0.75rem', borderRadius: '8px', border: 'none', background: '#6366f1', color: '#fff', fontSize: '1rem', cursor: 'pointer' },
-  error: { color: '#ef4444', marginBottom: '1rem', textAlign: 'center' },
-  link: { color: '#888', textAlign: 'center', marginTop: '1rem' }
-};
+    container: { minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(135deg, #fdf6ff 0%, #f0f4ff 100%)' },
+    card: { background: 'white', padding: '2.5rem', borderRadius: '20px', width: '100%', maxWidth: '400px', border: '1px solid #ede9fe', boxShadow: '0 4px 24px rgba(167, 139, 202, 0.2)' },
+    title: { color: '#7c3aed', textAlign: 'center', fontSize: '2rem', margin: '0 0 0.5rem', fontFamily: 'Georgia, serif' },
+    subtitle: { color: '#a78bca', textAlign: 'center', margin: '0 0 1.5rem', fontSize: '0.95rem' },
+    input: { width: '100%', padding: '0.75rem', marginBottom: '1rem', borderRadius: '10px', border: '1px solid #e8d5f5', background: '#fdf6ff', color: '#5b21b6', fontSize: '1rem', boxSizing: 'border-box', outline: 'none' },
+    button: { width: '100%', padding: '0.75rem', borderRadius: '10px', border: 'none', background: 'linear-gradient(135deg, #7c3aed, #a855f7)', color: '#fff', fontSize: '1rem', cursor: 'pointer' },
+    error: { color: '#ef4444', marginBottom: '1rem', textAlign: 'center', fontSize: '0.9rem' },
+    link: { color: '#a78bca', textAlign: 'center', marginTop: '1rem', fontSize: '0.9rem' }
+  };
